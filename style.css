@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital@0;1&display=swap');
-
 * {
     font-family: "Lato", sans-serif;
     padding: 0;
@@ -11,7 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
     color: #242424;
     text-align: center;
     line-height: 1.25;
@@ -42,7 +47,7 @@ i:hover {
     height: 3px;
     width: 0;
     bottom: -3px;
-    right: 0; 
+    right: 0;
     transition: all 300ms ease;
 }
 
@@ -55,8 +60,8 @@ i:hover {
 }
 
 .link__hover-effect:hover:after {
-width: 100%;
-left: 0;
+    width: 100%;
+    left: 0;
 }
 
 li {
@@ -215,6 +220,7 @@ nav {
         opacity: 0;
         transform: translateY(40px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -236,6 +242,7 @@ nav {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -250,9 +257,11 @@ nav {
     0% {
         transform: rotate(0);
     }
+
     50% {
         transform: rotate(30deg);
     }
+
     100% {
         transform: rotate(0);
     }
@@ -270,7 +279,7 @@ nav {
     filter: brightness(80%);
     opacity: 0.86;
     transform: scale(0.9);
-} 
+}
 
 .language {
     width: 25%;
@@ -385,8 +394,8 @@ nav {
     margin-right: 16px;
 }
 
-.project__description--title, 
-.project__description--sub-title, 
+.project__description--title,
+.project__description--sub-title,
 .project__description--para,
 .project__description--link {
     text-align: left;
@@ -416,8 +425,8 @@ footer {
 }
 
 .footer__logo--img {
- width: 70px;
- height: 70px;   
+    width: 70px;
+    height: 70px;
 }
 
 .footer__social--link,
